@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  font-family: "Roboto", serif;
+}
+header{
+  background-color: #322222;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  padding: 15px 30px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Serif", serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+.navbar-nav {
+  display: flex;
+}
+.nav-item {
+  list-style: none;
+}
+.navbar .nav-link {
+  padding: 0px 1em 0px 1em;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  transition: 300ms;
+  display: flex;
+}
+.icono {
+  width: auto;
+  height: 20px;
+}
+.nav-link-icono {
+  padding: 8px;
+}
+.nav-link-icono:hover {
+  text-shadow: #ccc 2px 2px 7px;
+  transform: scale(1.2, 1.2);
+}
+.nav-link:hover {
+  text-shadow: #ccc 2px 2px 7px;
+  transform: scale(1.2, 1.2);
+}
+.portada-inicio {
+  background-image: url("../assets/images/portada.webp");
+  background-size: cover;
+  height: calc(100vh - 108px);
+}
+.portada-inicio__titulo {
+  color: #fff;
+  font-family: "Roboto Serif", serif;
+  font-weight: 800;
+  font-size: 70px;
+  text-align: center;
+  padding: 290px 20px 95px;
+}
+.portada-inicio__bienvenida{
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+
+}
+.bg-black {
+  background-color: #0e0d0d6d;
+  padding: 40px;
+}
+.portada-inicio__descripcion {
+  color: #fff;
+  padding: 30px 220px 30px 220px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.bg-green {
+  background-color: #275656;
+}
+.cta{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px;
+}
+.cta h2 {
+  color: white;
+  font-family: "Roboto Serif", serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+.cta p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Roboto Serif", serif;
+ 
+}
+
+.section-image {
+  width: 1100px;
+}
+.section-image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.section-one {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 40px 0 60px;
+}
+.section-two {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 40px 0 60px;
+}
+.section-three {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 40px 0 60px;
+}
+.w-30{
+  width: 40%;
+}
+.container{
+  width: 1600px;
+  margin: 0 auto;
+  
+}
+.section-one p{
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.section-two p{
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.section-three p{
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+footer{
+  background-color: #322222;
+  color: white;
+  padding: 20px;
+}
+footer>div{
+  display: flex;
+  justify-content: space-between;
+}
+footer h2{
+  margin-bottom: 15px;
+}
+footer p{
+  margin-bottom: 12px;
+}
+.navbar-center{
+  justify-content: center;
+}
+.formulario-container{
+  padding:150px 5px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background-color: #275656;
+  justify-content: center;
+}
+.formulario{
+  background-color: #cacaca;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+.formulario .formulario-control{
+  display: flex;
+  flex-direction: column;
+}
+.formulario .formulario-control label{
+  font-size: 15px;
+  font-weight: 600;
+}
+.formulario .formulario-control input{
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+}
+.formulario .formulario-control .formulario-button{
+  background-color: #275656;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.div-servicios{
+  background-color: #275656;
+  height: 100vh;
+}
+.div-proyectos{
+  background-color: #275656;
+  height: 100vh;
+}
+.portada-nosotros{
+  background-image: url("../assets/images/portada-nosotros.webp");
+  background-size: cover;
+  height: calc(100vh - 108px);
+  padding-top: 50px;
+}
+.portada-nosotros__bienvenida{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Roboto serif", serif;
+}
+.portada-nosotros__descripcion{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.nuestros-clientes{
+  margin-top: 15px;
+  padding: 40px 20px;
+}
+.nuestros-clientes h3{
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Roboto Serif", serif;
+  font-weight: 800;
+  margin-bottom: 35px;
+} 
+.nuestros-clientes__fotos{
+  min-height: 500px;
+  background-color: white;
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 140px 40px repeat(2,230px);
+  gap: 10px 5px;
+}
+.nuestros-clientes__fotos div{
+  border: 1px solid red;
+  padding: 20px;
+}
+
+
+
+
+
