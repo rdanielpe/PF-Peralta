@@ -1,53 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-}
-:root{
+body{
   font-family: "Roboto", serif;
 }
-header{
-  background-color: #322222;
-  color: #fff;
-  position: sticky;
-  top: 0;
-  padding: 15px 30px;
+/* Header */
+.container-fluid{
+  max-width: 1600px;
+  margin: 0 auto;
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.bg-dark{ 
+  background-color: #322222 !important;
 }
-.navbar-brand {
-  text-decoration: none;
+.navbar-brand{
   color: #fff;
   font-family: "Roboto Serif", serif;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 32px;
+  line-height: 1.2;
 }
-.navbar-nav {
-  display: flex;
-}
-.nav-item {
-  list-style: none;
-}
-.navbar .nav-link {
-  padding: 0px 1em 0px 1em;
+.navbar-brand :hover{
   text-decoration: none;
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  transition: 300ms;
-  display: flex;
 }
 .icono {
   width: auto;
   height: 20px;
 }
-.nav-link-icono {
-  padding: 8px;
+.nav-link{
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+
 }
 .nav-link-icono:hover {
   text-shadow: #ccc 2px 2px 7px;
@@ -57,10 +40,12 @@ header{
   text-shadow: #ccc 2px 2px 7px;
   transform: scale(1.2, 1.2);
 }
+
+/* Portada Inicio */
 .portada-inicio {
   background-image: url("../assets/images/portada.webp");
   background-size: cover;
-  height: calc(100vh - 108px);
+  min-height: calc(100vh - 108px);
 }
 .portada-inicio__titulo {
   color: #fff;
@@ -73,28 +58,32 @@ header{
 .portada-inicio__bienvenida{
   color: white;
   font-size: 32px;
-  text-align: center;
   font-weight: 600;
-
-}
-.bg-black {
-  background-color: #0e0d0d6d;
-  padding: 40px;
 }
 .portada-inicio__descripcion {
   color: #fff;
-  padding: 30px 220px 30px 220px;
+  padding: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
 }
+
+/* backgrounds */
+.bg-black-transparency {
+  background-color: rgba(14, 13, 13, 0.427);
+  padding: 30px;
+}
 .bg-green {
   background-color: #275656;
 }
+
+/* Call to action */
 .cta{
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 60px;
+  padding: 20px;
 }
 .cta h2 {
   color: white;
@@ -109,79 +98,8 @@ header{
   font-size: 16px;
   text-align: center;
   font-family: "Roboto Serif", serif;
- 
 }
 
-.section-image {
-  width: 1100px;
-}
-.section-image img{
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.section-one {
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  color: white;
-  padding: 40px 0 60px;
-}
-.section-two {
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  color: white;
-  padding: 40px 0 60px;
-}
-.section-three {
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  color: white;
-  padding: 40px 0 60px;
-}
-.w-30{
-  width: 40%;
-}
-.container{
-  width: 1600px;
-  margin: 0 auto;
-  
-}
-.section-one p{
-  text-align: center;
-  width: 95%;
-  margin: 0 auto;
-}
-.section-two p{
-  text-align: center;
-  width: 95%;
-  margin: 0 auto;
-}
-.section-three p{
-  text-align: center;
-  width: 95%;
-  margin: 0 auto;
-}
-footer{
-  background-color: #322222;
-  color: white;
-  padding: 20px;
-}
-footer>div{
-  display: flex;
-  justify-content: space-between;
-}
-footer h2{
-  margin-bottom: 15px;
-}
-footer p{
-  margin-bottom: 12px;
-}
-.navbar-center{
-  justify-content: center;
-}
 .formulario-container{
   padding:150px 5px;
   display: flex;
