@@ -104,7 +104,7 @@ body{
   font-family: "Roboto Serif", serif;
 }
 .portada-contacto{
-  background-image: url("/assets/images/contacto.jpg");
+  background-image: url("/assets/images/portadacontacto.webp");
   background-size: cover;
   min-height: calc(100vh - 108px);
   
