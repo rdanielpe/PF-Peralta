@@ -4,9 +4,14 @@ body{
   font-family: "Roboto", serif;
 }
 /* Header */
-.container-fluid{
+.mw-90{
   max-width: 1600px;
   margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
 }
 .bg-dark{ 
   background-color: #322222 !important;
@@ -99,45 +104,65 @@ body{
   text-align: center;
   font-family: "Roboto Serif", serif;
 }
-
+.portada-contacto{
+  background-image: url("/assets/images/contacto.jpg");
+  background-size: cover;
+  min-height: calc(100vh - 108px);
+  
+}
 .formulario-container{
   padding:150px 5px;
   display: flex;
   gap: 30px;
   align-items: center;
-  background-color: #275656;
   justify-content: center;
+  max-width: 95%;
 }
 .formulario{
-  background-color: #cacaca;
-  padding: 15px;
-  border-radius: 12px;
+  background-color:rgba(221, 193, 193, 0.90);
+  padding: 32px;
+  box-shadow: 10px 5px 5px black;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 500px;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  
 }
 .formulario .formulario-control{
   display: flex;
   flex-direction: column;
 }
 .formulario .formulario-control label{
-  font-size: 15px;
+  font-size: 25px;
+  margin-bottom: 8px;
   font-weight: 600;
+  font-family: "Roboto serif", serif;
 }
 .formulario .formulario-control input{
   padding: 8px;
   border: none;
   border-radius: 6px;
+  background-color: rgba(14, 13, 13, 0.629) ;
+  color: white;
+  font-size: 20px;
+}
+.formulario .formulario-control input::placeholder{
+  color: rgba(255, 255, 255, 0.671);
 }
 .formulario .formulario-control .formulario-button{
-  background-color: #275656;
+  background-color: rgba(0, 0, 0, 0.73);
   color: white;
   padding: 8px 16px;
   border: none;
   border-radius: 6px;
   margin-top: 10px;
   font-weight: 600;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 12px;
+  font-size: 20px;
 }
 .div-servicios{
   background-color: #275656;
@@ -193,8 +218,28 @@ body{
   border: 1px solid red;
   padding: 20px;
 }
-
-
+.py-6{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Fuentes */
+.text-roboto-serif{
+  font-family: "Roboto serif", serif;
+}
+.mapa{
+  width: 100%;
+  max-width: 700px;
+}
+@media (min-width:768px){
+  .mapa{
+    max-width: 900px;
+    height: 600px;
+  }
+}
+.direccion{
+  font-size: 49px;
+  font-weight: 900;
+}
 
 
 
