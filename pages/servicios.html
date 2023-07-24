@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servicios</title>
    <!-- Boostrap cdn -->
    <link
    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -12,7 +11,26 @@
    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
    crossorigin="anonymous"
  />
-  <link rel="stylesheet" href="../styles/main.css" />
+  <link rel="stylesheet" href="../css/style.css"/>
+  <!-- Primary Meta Tags -->
+  <title>Servicios - A&D Creations</title>
+  <meta name="title" content="Servicios - A&D Creations" />
+  <meta name="description" content="Nuestros servicios personalizados y vanguardistas te permiten transformar tu espacio en un reflejo único de tu personalidad y estilo." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://metatags.io" />
+  <meta property="og:title" content="Servicios - A&D Creations" />
+  <meta property="og:description" content="Nuestros servicios personalizados y vanguardistas te permiten transformar tu espacio en un reflejo único de tu personalidad y estilo." />
+  <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://metatags.io" />
+  <meta property="twitter:title" content="Servicios - A&D Creations" />
+  <meta property="twitter:description" content="Nuestros servicios personalizados y vanguardistas te permiten transformar tu espacio en un reflejo único de tu personalidad y estilo." />
+  <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
 </head>
 <body>
   <!-- Inciio Header -->
@@ -71,14 +89,96 @@
       </div>
     </header>
   <!-- Fin del Header -->
-  <div class="div-servicios">
-    <p>Diseño de interiores residenciales</p>
-    <p>Diseño de interiores comerciales</p>
-    <p> Asesoramiento de estilo y tendencias</p>
-    <p>Selección de muebles y accesorios</p>
-    <p>Planificación del espacio y la iluminación</p>
+  <main>
+  <div class="portada-servicios">
+    <h1 class="portada-servicios__titulo">Servicios</h1>
+    <div class="row justify-content-start">
+      <div class="bg-black-transparency  col-md-6 py-6">
+        <p class="portada-servicios__parrafo">En A&D Creations, ofrecemos servicios personalizados de diseño de interiores para hacer realidad tus sueños. Nuestro equipo de expertos transforma cualquier espacio en uno único y funcional que refleja tu estilo personal. A continuación, detallamos algunos de nuestros servicios.</p>
+      </div>
+    </div>
   </div>
-  
+   <!-- fin de portada -->
+
+  <section class="servicios container py-5">
+    <div class="servicios__intro">
+      <h2>Nuestros servicios incluyen</h2>
+      <div class="section-one">
+        <div class="row border-bottom py-5">
+          <div class="col-lg-7 d-flex flex-column justify-content-center">
+            <h3 class="mb-4 text-center">Consultoría de Diseño</h3>
+            <p>
+              Nuestro proceso comienza con una consulta personalizada en la que nos reuniremos contigo para comprender tus necesidades, gustos y objetivos para el espacio. Analizaremos la estructura, el flujo y la iluminación del área para identificar las mejores soluciones de diseño.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="../assets/images/consultoria-diseño.webp" alt="reunion de trabajadores" width="525" height="395" />
+          </div>
+        </div>
+      </div>
+      <div class="section-two mt-3">
+        <div class="row border-bottom py-5">
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-lg-2">
+            <h3 class="mb-4 text-center">Diseño de Interiores Residenciales</h3>
+            <p>
+              Transformamos casas en hogares. Ya sea que desees un estilo moderno, clásico, ecléctico o minimalista, nuestros diseñadores crearán un concepto que refleje tu visión única y se adapte a tu estilo de vida.
+            </p>
+          </div>
+          <div class="col-lg-5 order-lg-1">
+            <img class="img-fluid" src="../assets/images/diseño-residenciales.webp" alt="co-working" width="525" height="395" />
+          </div>
+        </div>
+      </div>  
+      <div class="section-one">
+        <div class="row border-bottom py-5">
+          <div class="col-lg-7 d-flex flex-column justify-content-center">
+            <h3 class="mb-4 text-center">Diseño de Interiores Comerciales</h3>
+            <p>
+              Ayudamos a las empresas a crear espacios que impresionen a sus clientes y mejoren la productividad de sus empleados. Desde oficinas corporativas hasta espacios comerciales, nuestro enfoque se centra en la funcionalidad y el atractivo estético.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="../assets/images/diseño-comerciales.webp" alt="reunion de trabajadores" width="525" height="395" />
+          </div>
+        </div>
+      </div>
+      <div class="section-two mt-3">
+        <div class="row border-bottom py-5">
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-lg-2">
+            <h3 class="mb-4 text-center">Selección de Mobiliario y Accesorios</h3>
+            <p>
+              Si ya tienes muebles y accesorios que amas, pero sientes que el espacio necesita un cambio, podemos rediseñar tus habitaciones utilizando elementos existentes para darles un aspecto renovado y emocionante.
+            </p>
+          </div> 
+          <div class="col-lg-5 order-lg-1">
+            <img class="img-fluid" src="../assets/images/diseño-accesorios.webp" alt="co-working" width="525" height="395" />
+          </div>
+        </div>
+      </div> 
+      <div class="section-one">
+        <div class="row border-bottom py-5">
+          <div class="col-lg-7 d-flex flex-column justify-content-center">
+            <h3 class="mb-4 text-center">Rediseño de Espacios</h3>
+            <p>
+              Si ya tienes muebles y accesorios que amas, pero sientes que el espacio necesita un cambio, podemos rediseñar tus habitaciones utilizando elementos existentes para darles un aspecto renovado y emocionante..
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="../assets/images/rediseño-espacios.webp" alt="reunion de trabajadores" width="525" height="395" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="espacio-especial d-flex justify-content-end p-5">
+    <div class="p-md-5" style="max-width: 1000px;">
+      <h2>Haz tu Espacio Especial</h2>
+      <p>Permítenos ser tu socio de confianza en el mundo del diseño de interiores. Juntos, crearemos espacios que te enamorarán y que se convertirán en escenarios para crear recuerdos inolvidables.</p>
+    </div>
+  </section>
+  </main> 
+
   <!-- Inicio footer -->
   <div class="bg-dark py-1">
     <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
