@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500;700;800&family=Roboto:wght@100;300;400;700;900&display=swap");
+body {
+  font-family: "Roboto", serif;
+}
+/* Header */
+.mw-90 {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.bg-dark {
+  background-color: #322222 !important;
+}
+.navbar-brand {
+  color: #fff;
+  font-family: "Roboto Serif", serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1.2;
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.icono {
+  width: auto;
+  height: 20px;
+}
+.nav-link {
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+  &:hover {
+    text-shadow: #ccc 2px 2px 7px;
+    transform: scale(1.2, 1.2);
+  }
+}
+.nav-link-icono:hover {
+  text-shadow: #ccc 2px 2px 7px;
+  transform: scale(1.2, 1.2);
+}
+/* Portada Inicio */
+.portada-inicio {
+  background-image: url("../assets/images/portada.webp");
+  background-size: cover;
+  min-height: calc(100vh - 108px);
+  &__titulo {
+    color: #fff;
+    font-family: "Roboto Serif", serif;
+    font-weight: 800;
+    font-size: 70px;
+    text-align: center;
+    padding: 290px 20px 95px;
+    @media (max-width: 768px) {
+      font-size: 50px;
+    }
+  }
+  &__bienvenida {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  &__descripcion {
+    color: #fff;
+    padding: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+/* backgrounds */
+.bg-black-transparency {
+  background-color: rgba(14, 13, 13, 0.427);
+  padding: 30px;
+}
+
+/* Seccion elegirnos */
+.porque-elegirnos {
+  &__intro {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    font-family: "Roboto Serif", serif;
+    text-align: center;
+  }
+  h2 {
+    font-size: 42px;
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  &__estilo {
+    background-image: url("../assets/images/descubre-tu-estilo.webp");
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    p {
+      font-weight: 300;
+    }
+  }
+  &__creatividad {
+    background-image: url("../assets/images/descubre-tu-estilo2.webp");
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    p {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+
+  &__inspiracion {
+    background-image: url("../assets/images/descubre-tu-estilo3.webp");
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    p {
+      font-weight: 300;
+    }
+  }
+}
+
+/* CONTACTO */
+/* portada contacto */
+.portada-contacto {
+  background-image: url("../assets/images/portadascontacto.webp");
+  background-size: cover;
+  min-height: calc(100vh - 108px);
+}
+
+/* formulario container */
+.formulario-container {
+  padding: 150px 5px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  max-width: 95%;
+}
+
+/* formulario */
+.formulario {
+  background-color: rgba(221, 193, 193, 0.9);
+  padding: 32px;
+  box-shadow: 10px 5px 5px black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  .formulario-control {
+    display: flex;
+    flex-direction: column;
+    label {
+      font-size: 25px;
+      margin-bottom: 8px;
+      font-weight: 600;
+      font-family: "Roboto serif", serif;
+    }
+    input {
+      padding: 8px;
+      border: none;
+      border-radius: 6px;
+      background-color: rgba(14, 13, 13, 0.629);
+      color: white;
+      font-size: 20px;
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.671);
+      }
+    }
+    .formulario-button {
+      background-color: rgba(0, 0, 0, 0.73);
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      font-weight: 600;
+      width: 35%;
+      margin: 0 auto;
+      margin-top: 12px;
+      font-size: 20px;
+    }
+  }
+}
+.mapa {
+  width: 100%;
+  max-width: 700px;
+  @media (min-width: 768px) {
+    max-width: 900px;
+    height: 600px;
+  }
+}
+
+.direccion {
+  font-size: 49px;
+  font-weight: 900;
+}
+
+/* Nosotros */
+/* Portada nosotros */
+.portada-nosotros {
+  background-image: url("../assets/images/portada-nosotros.webp");
+  background-size: cover;
+  height: calc(100vh - 108px);
+  padding-top: 50px;
+  &__bienvenida {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Roboto serif", serif;
+  }
+  &__descripcion {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+.section-nosotros {
+  font-size: 20px;
+  font-weight: 300;
+  h2 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Roboto serif", serif;
+  }
+  h3 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+}
+
+.nuestro-equipo {
+  background-image: url("../assets/images/nuestro-equipo.webp");
+  background-size: cover;
+  height: 551px;
+  color: white;
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+/* Servicios */
+.portada-servicios {
+  background-image: url("../assets/images/portada-servicios.webp");
+  background-size: cover;
+  min-height: calc(100vh - 108px);
+  color: white;
+  font-family: "Roboto Serif", serif;
+  &__titulo {
+    font-size: 90px;
+    font-weight: 900;
+    padding: 150px 20px 50px 150px;
+  }
+  &__parrafo {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100 ;
+  }
+}
+.servicios{
+  h2{
+    font-size: 42px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    font-family: "Roboto Serif", serif;
+    text-align: center;
+   }
+   &__intro{
+      h3{
+      font-size: 24px;
+      font-weight: 300;
+       }
+      p{
+      font-size: 20px;
+      font-weight: 300;
+      }
+     }
+}
+.espacio-especial{
+  background-image: url("../assets/images/especial.webp");
+  background-size: cover;
+  height: 551px;
+  color: white;
+  font-weight: 300;
+  h2 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+
+
+/* Proyectos */
+.portada-proyectos {
+  background-image: url("../assets/images/portada-proyectos.webp");
+  background-size: cover;
+  height: calc(50vh - 54px);
+  &__titulo {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: "Roboto Serif", serif;
+    padding: 140px 20px 90px;
+  }
+}
+
+/* Utilidades */
+.py-6 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.text-roboto-serif {
+  font-family: "Roboto serif", serif;
+}
