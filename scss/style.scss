@@ -211,7 +211,12 @@ body {
       margin: 0 auto;
       margin-top: 12px;
       font-size: 20px;
+    &:active{
+      transform: scale(0.90);
+
+      }
     }
+
   }
 }
 .mapa {
@@ -271,8 +276,8 @@ body {
   height: 551px;
   color: white;
   h2 {
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
   }
   p {
     font-size: 20px;
@@ -327,8 +332,8 @@ body {
   color: white;
   font-weight: 300;
   h2 {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 500;
   }
   p {
     font-size: 20px;
@@ -351,6 +356,51 @@ body {
     font-family: "Roboto Serif", serif;
     padding: 140px 20px 90px;
   }
+}
+.gracias-por-visitarnos{
+  background-image: url("../assets/images/gracias-por-visitarnos.webp");
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    h3 {
+      font-size: 36px;
+      font-weight: 400;
+      font-family: "Roboto Serif", serif;
+      text-align: center;
+      padding: 290px 20px 95px;
+      @media (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+}
+.proximo-proyecto{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+    font-family: "Roboto Serif", serif;
+  
+}
+.oficina{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 152px;
+  img{
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 30px ;
+  }  
+  margin-bottom: 100px;
+}
+.oficina-titulo{
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Roboto Serif", serif;
+  margin-bottom: 70px;
+
 }
 
 /* Utilidades */
