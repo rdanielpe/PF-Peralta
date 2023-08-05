@@ -173,6 +173,7 @@ body {
   max-width: 95%;
 }
 
+/* contacto */
 /* formulario */
 .formulario {
   background-color: rgba(221, 193, 193, 0.9);
@@ -214,7 +215,6 @@ body {
   border-radius: 6px;
   margin-top: 10px;
   font-weight: 600;
-  width: 35%;
   margin: 0 auto;
   margin-top: 12px;
   font-size: 20px;
@@ -237,6 +237,10 @@ body {
 .direccion {
   font-size: 49px;
   font-weight: 900;
+}
+
+.bg-mapa {
+  background-color: #eee;
 }
 
 /* Nosotros */
@@ -317,7 +321,7 @@ body {
   font-weight: 300;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 60px;
+  padding: 60px 0;
   font-family: "Roboto Serif", serif;
   text-align: center;
 }
@@ -418,6 +422,43 @@ body {
 
 .text-roboto-serif {
   font-family: "Roboto serif", serif;
+}
+
+@media (max-width: 768px) {
+  .formulario {
+    padding: 16px;
+  }
+  .formulario .formulario-control label {
+    font-size: 18px;
+  }
+  .formulario .formulario-control input {
+    font-size: 16px;
+  }
+  .formulario .formulario-control .formulario-button {
+    font-size: 16px;
+  }
+  .direccion {
+    font-size: 27px;
+  }
+  .section-nosotros h2 {
+    font-size: 28px;
+  }
+  .portada-servicios__titulo {
+    font-size: 42px;
+    padding: 30px 16px 0;
+  }
+  .portada-servicios__parrafo {
+    font-size: 20px;
+  }
+  .servicios h2 {
+    font-size: 30px;
+  }
+  .portada-proyectos__titulo {
+    font-size: 50px;
+  }
+  .bg-black-transparency {
+    padding: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
