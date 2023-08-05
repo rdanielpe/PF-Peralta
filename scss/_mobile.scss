@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .formulario{
+    padding: 16px;
+    .formulario-control{
+      label{
+        font-size: 18px;
+      }
+      input{
+        font-size: 16px;
+      }
+      .formulario-button{
+        font-size: 16px;
+      }
+    }
+  }
+  .direccion {
+    font-size: 27px;
+  }
+  .section-nosotros h2 {
+    font-size: 28px;
+  }
+  .portada-servicios{
+    &__titulo{
+      font-size: 42px;
+      padding: 30px 16px 0 ;
+    }
+    &__parrafo{
+      font-size: 20px;
+    }
+  }
+  .servicios h2{
+    font-size: 30px;
+  }
+  .portada-proyectos__titulo{
+    font-size: 50px;
+  }
+  .bg-black-transparency{
+    padding: 16px;
+  }
+
+}
+
