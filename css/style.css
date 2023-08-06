@@ -46,7 +46,6 @@ body {
 }
 
 .nav-link-icono:hover {
-  border: 1px solid red;
   text-shadow: #ccc 2px 2px 7px;
   transform: scale(1.2, 1.2);
 }
